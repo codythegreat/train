@@ -1,0 +1,4 @@
+=|=[chug greet(greeting)]-[ticket = aboard("Do you have a ticket? ")]-[switch ticket == "yes"]
+-[#choo(greeting)]-[else switch ticket == "no"]-[#choo("Sorry, looks like you don't have a ticket!")]=|=
+
+=|=<[greet("Welcome aboard passenger!")]=|=
